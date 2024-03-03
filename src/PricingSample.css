@@ -1,0 +1,968 @@
+.app-container {
+    top: -1px;
+    left: 0px;
+    width: 1480px;
+    height: 833px;
+    background: #F7F7FF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    overflow: hidden;
+}
+
+.graphic1 img {
+    top: -45.00048828125px;
+    left: 859px;
+    width: 731px;
+    height: 612px;
+    background: transparent url('./Assets/Graphic.svg') 0% 0% no-repeat padding-box;
+    opacity: 0.3;
+    position: absolute;
+}
+
+.graphic2 img {
+    top: 347px;
+    left: -276.8547058105469px;
+    width: 795px;
+    height: 798px;
+    background: transparent url('./Assets/Graphic2.svg') 0% 0% no-repeat padding-box;
+    opacity: 0.3;
+    position: absolute;
+}
+
+.heading {
+    top: 48px;
+    left: 636px;
+    width: 208px;
+    height: 47px;
+    text-align: left;
+    font: normal normal bold 38px/42px Montserrat;
+    letter-spacing: -1.9px;
+    color: #65687E;
+    opacity: 1;
+    position: absolute;
+}
+
+.termType1 {
+    top: 141px;
+    left: 619px;
+    width: 66px;
+    height: 19px;
+    text-align: left;
+    font-family: 'Montserrat';
+    font: normal normal medium 16px/18px Montserrat;
+    letter-spacing: -0.8px;
+    color: #65687E;
+    opacity: 1;
+    position: absolute;
+}
+
+.termType2 {
+    top: 141px;
+    left: 797px;
+    width: 62px;
+    height: 19px;
+    text-align: left;
+    font-family: 'Montserrat';
+    font: normal normal medium 16px/18px Montserrat;
+    letter-spacing: -0.8px;
+    color: #65687E;
+    opacity: 1;
+    position: absolute;
+}
+
+.toggleButton {
+    top: 135px;
+    left: 715px;
+    width: 59px;
+    height: 30px;
+    background: #C1C4F5 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+    position: absolute;
+    cursor: pointer;
+}
+
+.toggleButton.active {
+    background: #C1C4F5 0% 0% no-repeat padding-box;
+  }
+
+.toggleButton:hover {
+    box-shadow: 0px 3px 6px #00000029;
+}  
+
+.toggleButton .toggleCircle {
+    top: 2px;
+    left: 2px;
+    width: 26px;
+    height: 26px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 13px;
+    opacity: 1;
+    position: absolute;
+    cursor: pointer;
+    transition: left 0.2s;
+}
+
+.toggleButton.active .toggleCircle {
+    left: 31px;
+    background-color: #FFFFFF;
+} 
+
+.leftBox {
+    top: 280px;
+    left: 193px;
+    width: 362px;
+    height: 466px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 25px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+    position: absolute;
+    transition: 0.2s;
+}
+
+.leftBox:hover {
+    top: 253px;
+    left: 190.5px;
+    width: 367px;
+    height: 515px;
+    background: transparent linear-gradient(145deg, #B2B6F4 0%, #797BD9 100%) 0% 0% no-repeat padding-box;
+    z-index: 1;    
+}
+
+.leftBoxTitle {
+    top: 35px;
+    left: 141.5px;
+    width: 79px;
+    height: 27px;
+    text-align: left;
+    font: normal normal bold 22px/26px Montserrat;
+    letter-spacing: 0px;
+    color: #65687E;
+    opacity: 1;
+    position: absolute;
+    transition: 0.2s;
+}
+
+.leftBox:hover .leftBoxTitle{
+    top:47px;
+    left: 142px;
+    width: auto;
+    height: 30px;
+    font: normal normal bold 25px/29px Montserrat;
+    color: #FDFDFF;
+}
+
+.leftDollar {
+    top: 97.47px;
+    left: 59.56px;
+    width: 25px;
+    height: 48px;
+    text-align: left;
+    font: normal normal 600 39px/44px Montserrat;
+    letter-spacing: 0px;
+    color: #65687E;
+    opacity: 1;
+    position: absolute;
+    transition: 0.2s;
+}
+
+.leftBox:hover .leftDollar{
+    top: 116px;
+    left: 55px;
+    width: 28px;
+    height: 54px;
+    font: normal normal 600 44px/50px Montserrat;
+    color: #FDFDFF;
+}
+
+.leftPrice {
+    top: 80.5px;
+    left: 98px;
+    width: 171px;
+    height: 82px;
+    text-align: left;
+    font: normal normal bold 67px/75px Montserrat;
+    letter-spacing: 0px;
+    color: #65687E;
+    opacity: 1;
+    position: absolute;
+    transition: 0.2s;
+}
+
+.leftBox:hover .leftPrice{
+    top: 97px;
+    left: 101px;
+    width: 212px;
+    height: 92px;
+    font: normal normal bold 75px/84px Montserrat;
+    color: #FDFDFF;
+}
+
+.leftBoxItems {
+    top: 174.42px;
+    left: 39px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font: normal normal 600 17px/25px Montserrat;
+    letter-spacing: 0px;
+    color: #65687E;
+    opacity: 1;
+    position: absolute;
+    transition: 0.2s;
+}
+
+.leftBox:hover .leftBoxItems{
+    top:205px;
+    left: 35px;
+    font: normal normal 600 20px/29px Montserrat;
+    color: #FDFDFF;
+}
+
+.leftBoxItems tr td {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17px 73px ;
+    border: 2px solid lightgrey;
+    margin: -2px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.leftBox:hover .leftBoxItems tr td{
+    padding: 18px 68px ;
+}
+
+.leftBoxBottom {
+    top: 385.47px;
+    left: 37.56px;
+    width: 287px;
+    height: 46px;
+    border: 1px solid #65687E;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+    color: #797BD9;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.leftBox:hover .leftBoxBottom {
+    top: 439px;
+    left: 23.5px;
+    width: 321px;
+    height: 52px;
+    border: 1px solid #FFFFFF;
+    color: #FDFDFF;
+    background: transparent;
+}
+
+.leftBox:hover .leftBoxBottom:hover {
+    color: #797BD9;
+    background-color: #FFFFFF;
+    transition: 0.2s;
+}
+
+.midBox {
+    top: 280px;
+    left: 559px;
+    width: 362px;
+    height: 466px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 25px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+    position: absolute;
+    transition: 0.2s;
+}
+
+.midBox:hover {
+    top: 253px;
+    left: 556.5px;
+    width: 367px;
+    height: 515px;
+    background: transparent linear-gradient(145deg, #B2B6F4 0%, #797BD9 100%) 0% 0% no-repeat padding-box;
+    z-index: 1;
+}
+
+.midBoxTitle {
+    top: 35px;
+    left: 112px;
+    width: 133px;
+    height: 30px;
+    text-align: left;
+    font: normal normal bold 22px/26px Montserrat;
+    letter-spacing: 0px;
+    color: #65687E;
+    opacity: 1;
+    position: absolute;
+    transition: 0.2s;
+}
+
+.midBox:hover .midBoxTitle {
+    top:47px;
+    left: 109px;
+    width: auto;
+    height: 30px;
+    font: normal normal bold 25px/29px Montserrat;
+    color: #FDFDFF;
+}
+
+.midDollar {
+    top: 97.47px;
+    left: 59.56px;
+    width: 25px;
+    height: 48px;
+    text-align: left;
+    font: normal normal 600 39px/44px Montserrat;
+    letter-spacing: 0px;
+    color:#65687E;
+    opacity: 1;
+    position: absolute;
+    transition: 0.2s;
+}
+
+.midBox:hover .midDollar {
+    top: 116px;
+    left: 55px;
+    width: 28px;
+    height: 54px;
+    font: normal normal 600 44px/50px Montserrat;
+    color: #FDFDFF;
+}
+
+.midPrice {
+    top: 80.5px;
+    left: 98px;
+    width: 171px;
+    height: 82px;
+    text-align: left;
+    font: normal normal bold 67px/75px Montserrat;
+    letter-spacing: 0px;
+    color: #65687E;
+    opacity: 1;
+    position: absolute;
+    transition: 0.2s;
+}
+
+.midBox:hover .midPrice {
+    top: 97px;
+    left: 101px;
+    width: 212px;
+    height: 92px;
+    font: normal normal bold 75px/84px Montserrat;
+    color: #FDFDFF;
+}
+
+.midBoxItems {
+    top: 174.42px;
+    left: 40px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font: normal normal 600 17px/25px Montserrat;
+    letter-spacing: 0px;
+    color: #65687E;
+    opacity: 1;
+    position: absolute;
+    transition: 0.2s;
+}
+
+.midBox:hover .midBoxItems {
+    top:205px;
+    left: 31px;
+    text-align: left;
+    font: normal normal 600 20px/29px Montserrat;
+    color: #FDFDFF;
+}
+
+.midBoxItems tr td {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17px 68px ;
+    border: 2px solid lightgrey;
+    margin: -2px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.midBox:hover .midBoxItems tr td {
+    padding: 18px 68px ;
+}
+
+.midBoxBottom {
+    top: 385.47px;
+    left: 37.56px;
+    width: 287px;
+    height: 46px;
+    border: 1px solid #65687E;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+    color: #797BD9;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.midBox:hover .midBoxBottom {
+    top: 439px;
+    left: 23.5px;
+    width: 321px;
+    height: 52px;
+    border: 1px solid #FFFFFF;
+    color: #FDFDFF;
+    background: transparent;
+}
+
+.midBox:hover .midBoxBottom:hover {
+    color: #797BD9;
+    background-color: #FFFFFF;
+    transition: 0.2s;
+}
+
+.rightBox {
+    top: 280px;
+    right: 193px;
+    width: 362px;
+    height: 466px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 25px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+    position: absolute;
+    transition: 0.2s;
+}
+
+.rightBox:hover {
+    top: 253px;
+    right: 190.5px;
+    width: 367px;
+    height: 515px;
+    background: transparent linear-gradient(145deg, #B2B6F4 0%, #797BD9 100%) 0% 0% no-repeat padding-box;
+    z-index: 1;
+}
+
+.rightBoxTitle {
+    top: 35px;
+    left: 141.5px;
+    width: 79px;
+    height: 27px;
+    text-align: left;
+    font: normal normal bold 22px/26px Montserrat;
+    letter-spacing: 0px;
+    color: #65687E;
+    opacity: 1;
+    position: absolute;
+    transition: 0.2s;
+}
+
+.rightBox:hover .rightBoxTitle {
+    top:47px;
+    left: 142px;
+    width: auto;
+    height: 30px;
+    font: normal normal bold 25px/29px Montserrat;
+    color: #FDFDFF;
+}
+
+.rightDollar {
+    top: 97.47px;
+    left: 59.56px;
+    width: 25px;
+    height: 48px;
+    text-align: left;
+    font: normal normal 600 39px/44px Montserrat;
+    letter-spacing: 0px;
+    color: #65687E;
+    opacity: 1;
+    position: absolute;
+    transition: 0.2s;
+}
+
+.rightBox:hover .rightDollar {
+    top: 116px;
+    left: 55px;
+    width: 28px;
+    height: 54px;
+    font: normal normal 600 44px/50px Montserrat;
+    color: #FDFDFF;
+}
+
+.rightPrice {
+    top: 80.5px;
+    left: 98px;
+    width: 171px;
+    height: 82px;
+    text-align: left;
+    font: normal normal bold 67px/75px Montserrat;
+    letter-spacing: 0px;
+    color: #65687E;
+    opacity: 1;
+    position: absolute;
+    transition: 0.2s;
+}
+
+.rightBox:hover .rightPrice {
+    top: 97px;
+    left: 101px;
+    width: 212px;
+    height: 92px;
+    font: normal normal bold 75px/84px Montserrat;
+    color: #FDFDFF;
+}
+
+.rightBoxItems {
+    top: 174.42px;
+    left: 39px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font: normal normal 600 17px/25px Montserrat;
+    letter-spacing: 0px;
+    color: #65687E;
+    opacity: 1;
+    position: absolute;
+    transition: 0.2s;
+}
+
+.rightBox:hover .rightBoxItems {
+    top:205px;
+    left: 28px;
+    text-align: left;
+    font: normal normal 600 20px/29px Montserrat;
+    color: #FDFDFF;
+}
+
+.rightBoxItems tr td {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17px 68px ;
+    border: 2px solid lightgrey;
+    margin: -2px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.rightBox:hover .rightBoxItems tr td {
+    padding: 18px 68px ;
+}
+
+.rightBoxBottom {
+    top: 385.47px;
+    left: 37.56px;
+    width: 287px;
+    height: 46px;
+    border: 1px solid #65687E;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    opacity: 1;
+    position: absolute;
+    color: #797BD9;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.rightBox:hover .rightBoxBottom {
+    top: 439px;
+    left: 23.5px;
+    width: 321px;
+    height: 52px;
+    border: 1px solid #FFFFFF;
+    color: #FDFDFF;
+    background: transparent;
+}
+
+.rightBox:hover .rightBoxBottom:hover {
+    color: #797BD9;
+    background-color: #FFFFFF;
+    transition: 0.2s;
+}
+
+@media only screen and (max-width:755px) {
+    .app-container {
+        top: -1px;
+        left: 0px;
+        width: 360px;
+        height: 1485.5px;
+        background: #F7F7FF 0% 0% no-repeat padding-box;
+        opacity: 1;
+        position: absolute;
+    }
+
+    .graphic1 img {
+        top: -37.089385986328125px;
+        left: 109px;
+        width: 650px;
+        height: 587px;
+        transform: matrix(0.97, 0.26, -0.26, 0.97, 0, 0);
+        background: transparent url('./Assets/MobileGraphic.svg') 0% 0% no-repeat padding-box;
+        opacity: 0.23;
+    }
+
+    .graphic2 img {
+        opacity: 0;
+    }
+
+    .heading {
+        top: 44px;
+        left: 96px;
+        width: 170px;
+        height: 38px;
+        /* UI Properties */
+        font: normal normal bold 31px/34px Montserrat;
+        letter-spacing: -1.55px;
+    }
+
+    .termType1 {
+        top: 115px;
+        left: 82px;
+        width: 58px;
+        height: 18px;
+        font: normal normal medium 14px/15px Montserrat;
+        letter-spacing: -0.7px;   
+    }
+
+    .termType2 {
+        top: 115px;
+        left: 227px;
+        width: 55px;
+        height: 18px;
+        font: normal normal medium 14px/15px Montserrat;
+        letter-spacing: -0.7px;    
+    }
+
+    .toggleButton {
+        top: 112px;
+        left: 160px;
+        width: 49px;
+        height: 24px;
+        border-radius: 15px;  
+    }
+
+    .toggleButton .toggleCircle {
+        top: 1px;
+        left: 1px;
+        width: 21px;
+        height: 22px;   
+    }
+
+    .toggleButton.active .toggleCircle {
+        left: 27px;
+    }
+
+    .leftBox {
+        top: 161px;
+        left: 20px;
+        width: 320px;
+        height: 414px;
+        border-radius: 10px;   
+    }
+
+    .leftBox:hover {
+        top: 138.5px;
+        left: 17px;
+        width: 327px;
+        height: 459px;
+    }
+
+    .leftBoxTitle {
+        top: 31.5px;
+        left: 125px;
+        width: 61px;
+        height: 20px;
+        font: normal normal bold 17px/20px Montserrat;  
+    }
+
+    .leftBox:hover .leftBoxTitle {
+        top: 42px;
+        left: 120px;
+        width: auto;
+        height: 27px;
+        font: normal normal bold 22px/26px Montserrat;
+    }
+
+    .leftDollar {
+        top: 86.8px;
+        left: 52.3px;
+        width: 20px;
+        height: 39px;
+        font: normal normal 600 32px/36px Montserrat;
+    }
+
+    .leftBox:hover .leftDollar {
+        top: 103px;
+        left: 40px;
+        width: 25px;
+        height: 48px;
+        font: normal normal 600 39px/44px Montserrat;
+    }
+
+    .leftPrice {
+        top: 71.8px;
+        left: 86.4px;
+        width: 151px;
+        height: 72px;
+        font: normal normal bold 59px/66px Montserrat;
+    }
+
+    .leftBox:hover .leftPrice {
+        top: 86px;
+        left: 81px;
+        width: 189px;
+        height: 82px;
+        font: normal normal bold 67px/75px Montserrat;
+    }
+
+    .leftBoxItems {
+        top: 169px;
+        left: 34px;
+        width: auto;
+        height: auto;
+        font: normal normal 600 13px/19px Montserrat;
+    }
+
+    .leftBox:hover .leftBoxItems {
+        top: 190px;
+        left: 28px;
+        width: auto;
+        height: auto;
+        font: normal normal 600 17px/25px Montserrat;
+    }
+
+    .leftBoxItems tr td {
+        padding: 13px 74px ;
+    }
+
+    .leftBox:hover .leftBoxItems tr td {
+        padding: 15px 67px;
+    }
+
+    .leftBoxBottom {
+        top: 338px;
+        left: 33px;
+        width: 254px;
+        height: 41px;
+        border-radius: 4px;
+    }
+
+    .leftBox:hover .leftBoxBottom {
+        top: 392px;
+        left: 23px;
+        width: 282px;
+        height: 45px;
+        border-radius: 4px;
+    }
+
+    .midBox {
+        top: 595px;
+        left: 20px;
+        width: 320px;
+        height: 414px;
+        border-radius: 10px;
+    }
+
+    .midBox:hover {
+        top: 572.5px;
+        left: 17px;
+        width: 327px;
+        height: 459px;
+        border-radius: 10px;
+    }
+
+    .midBoxTitle {
+        top: 31.5px;
+        left: 108px;
+        width: 61px;
+        height: 20px;
+        font: normal normal bold 17px/20px Montserrat;
+    }
+
+    .midBox:hover .midBoxTitle{
+        top: 42px;
+        left: 98px;
+        width: 142px;
+        height: 27px;
+        font: normal normal bold 22px/26px Montserrat;
+    }
+
+    .midDollar {
+        top: 86.8px;
+        left: 52.3px;
+        width: 20px;
+        height: 39px;
+        font: normal normal 600 32px/36px Montserrat;
+    }
+
+    .midBox:hover .midDollar {
+        top: 103px;
+        left: 40px;
+        width: 25px;
+        height: 48px;
+        font: normal normal 600 39px/44px Montserrat;
+    }
+
+    .midPrice {
+        top: 71.8px;
+        left: 86.4px;
+        width: 151px;
+        height: 72px;
+        font: normal normal bold 59px/66px Montserrat;
+    }
+
+    .midBox:hover .midPrice {
+        top: 86px;
+        left: 81px;
+        width: 189px;
+        height: 82px;
+        font: normal normal bold 67px/75px Montserrat;
+    }
+
+    .midBoxItems {
+        top: 169px;
+        left: 34px;
+        width: auto;
+        height: auto;
+        font: normal normal 600 13px/19px Montserrat;
+    }
+
+    .midBox:hover .midBoxItems {
+        top: 190px;
+        left: 24px;
+        width: auto;
+        height: auto;
+        font: normal normal 600 17px/25px Montserrat;
+    }
+
+    .midBoxItems tr td {
+        padding: 13px 71px ;
+    }
+
+    .midBox:hover .midBoxItems tr td {
+        padding: 15px 67px;
+    }
+
+    .midBoxBottom {
+        top: 338px;
+        left: 33px;
+        width: 254px;
+        height: 41px;
+        border-radius: 4px;
+    }
+
+    .midBox:hover .midBoxBottom {
+        top: 392px;
+        left: 23px;
+        width: 282px;
+        height: 45px;
+        border-radius: 4px;
+    }
+
+    .rightBox {
+        top: 1029px;
+        left: 20px;
+        width: 320px;
+        height: 414px;
+        border-radius: 10px; 
+    }
+
+    .rightBox:hover {
+        top: 1006.5px;
+        left: 17px;
+        width: 327px;
+        height: 459px;
+    }
+
+    .rightBoxTitle {
+        top: 31.5px;
+        left: 125px;
+        width: 61px;
+        height: 20px;
+        font: normal normal bold 17px/20px Montserrat;  
+    }
+
+    .rightBox:hover .rightBoxTitle {
+        top: 42px;
+        left: 120px;
+        width: auto;
+        height: 27px;
+        font: normal normal bold 22px/26px Montserrat;
+    }
+
+    .rightDollar {
+        top: 86.8px;
+        left: 52.3px;
+        width: 20px;
+        height: 39px;
+        font: normal normal 600 32px/36px Montserrat;
+    }
+
+    .rightBox:hover .rightDollar {
+        top: 103px;
+        left: 40px;
+        width: 25px;
+        height: 48px;
+        font: normal normal 600 39px/44px Montserrat;
+    }
+
+    .rightPrice {
+        top: 71.8px;
+        left: 86.4px;
+        width: 151px;
+        height: 72px;
+        font: normal normal bold 59px/66px Montserrat;
+    }
+
+    .rightBox:hover .rightPrice {
+        top: 86px;
+        left: 81px;
+        width: 189px;
+        height: 82px;
+        font: normal normal bold 67px/75px Montserrat;
+    }
+
+    .rightBoxItems {
+        top: 169px;
+        left: 34px;
+        width: auto;
+        height: auto;
+        font: normal normal 600 13px/19px Montserrat;
+    }
+
+    .rightBox:hover .rightBoxItems {
+        top: 190px;
+        left: 24px;
+        width: auto;
+        height: auto;
+        font: normal normal 600 17px/25px Montserrat;
+    }
+
+    .rightBoxItems tr td {
+        padding: 13px 71px ;
+    }
+
+    .rightBox:hover .rightBoxItems tr td {
+        padding: 15px 67px;
+    }
+
+    .rightBoxBottom {
+        top: 338px;
+        left: 33px;
+        width: 254px;
+        height: 41px;
+        border-radius: 4px;
+    }
+
+    .rightBox:hover .rightBoxBottom {
+        top: 392px;
+        left: 23px;
+        width: 282px;
+        height: 45px;
+        border-radius: 4px;
+    }
+}
